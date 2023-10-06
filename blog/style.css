@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400;700&display=swap');
+
+h1,h2,h3,h4,h5,h6,.logo, ul, li{
+    font-family: 'Amatic SC', cursive;
+    color: white;
+}
+.logo{
+    font-size: 30px;
+}
+h1{
+    font-size: 50px;
+}
+
+p,a,span,footer{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+footer{
+    text-align: center;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 11px;
+    opacity: 0.5;
+
+}
+
+*{
+
+    background: black;
+}
+.menus{
+position: relative;
+display: block;
+text-align: center;
+max-width: 900px;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+.menus li{
+    display: inline-block;
+    padding: 10px;
+    
+
+}
+
+.content{
+    padding-top: 50px;
+    text-align: center;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
